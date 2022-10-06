@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+
+
+html {
+    box-sizing: border-box;
+   
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #d4d9d7;
+    font-size: 65.5%;
+    font-family: 'Abyssinica SIL', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.pip {
+    position: absolute;
+    font-size: 2rem;
+    padding: .5rem 2rem;
+    border-radius: 10px;
+    background-color: #3d403e;
+    color: whitesmoke;
+    box-shadow: 0px 8px 1px #4a4f4d ;
+    -webkit-box-shadow: 0px 8px 1px #4a4f4d ;
+    -moz-box-shadow: 0px 8px 1px #4a4f4d ;
+    cursor: pointer;
+    border: none;
+    letter-spacing: .3rem;
+    font-family: inherit;
+}
+
+
+.pip:hover {
+    filter: brightness(110%);
+}
+
+.pip:active {
+    transform: translateY(.2rem);
+    box-shadow: 0px 5px 1px #4a4f4d ;
+    -webkit-box-shadow: 0px 5px 1px #4a4f4d ;
+    -moz-box-shadow: 0px 5px 1px #4a4f4d ;
+}
