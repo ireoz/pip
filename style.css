@@ -9,8 +9,8 @@ html {
 body {
     margin: 0;
     min-height: 100vh;
-    background-color: #d4d9d7;
-    font-size: 65.5%;
+    background-color: rgb(37, 37, 37);
+    /* font-size: 65.5%; */
     font-family: 'Abyssinica SIL', serif;
     display: flex;
     align-items: center;
@@ -18,30 +18,34 @@ body {
   
 }
 
-.pip {
-    position: absolute;
-    font-size: 2rem;
-    padding: .5rem 2rem;
-    border-radius: 10px;
-    background-color: #3d403e;
-    color: whitesmoke;
-    box-shadow: 0px 8px 1px #4a4f4d ;
-    -webkit-box-shadow: 0px 8px 1px #4a4f4d ;
-    -moz-box-shadow: 0px 8px 1px #4a4f4d ;
+.button-container {
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 7px;
+    box-shadow: inset 0px 20px 4px -19px rgba(255, 255, 255, 0.7);
+}
+
+button {
     cursor: pointer;
-    border: none;
-    letter-spacing: .3rem;
+    outline: none;
+    width: 120px;
+    height: 75px;
     font-family: inherit;
+    font-size: 25px;
+    color: whitesmoke;
+    text-shadow: 0 2px 5px black;
+    background: linear-gradient(to top, #696969 , #575757);
+    border: 2px solid black;
+    border-radius: 7px;
+    box-shadow: inset 0px 20px 4px -19px rgba(255, 255, 255, 0.4),0 12px 12px 0 rgba(0, 0, 0, 0.3);
 }
 
 
-.pip:hover {
-    filter: brightness(110%);
+button:hover {
+    background: linear-gradient(to bottom, #696969 , #575757);
 }
 
-.pip:active {
-    transform: translateY(.2rem);
-    box-shadow: 0px 5px 1px #4a4f4d ;
-    -webkit-box-shadow: 0px 5px 1px #4a4f4d ;
-    -moz-box-shadow: 0px 5px 1px #4a4f4d ;
+button:active {
+  transform: translateY(2px);
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.3);
 }

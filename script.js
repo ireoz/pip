@@ -1,6 +1,5 @@
 const pipButton = document.getElementById('pip');
 const videoElement = document.getElementById('video');
-console.log(pipButton);
 
 
 // pipButton.addEventListener('click', ())
@@ -34,4 +33,4 @@ pipButton.addEventListener('click', () => {
     }
   });
 
-callCaptureStream();
+// callCaptureStream();
